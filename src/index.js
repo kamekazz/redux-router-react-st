@@ -28,7 +28,7 @@ ReactDOM.render(
         <App>
         <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/Landing" component={LandingPage} />
+            <Route path="/landing" component={LandingPage} />
         </Switch>
         </App>
     </Router>

@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 export default function(state = INITIAL_STATE, action) {
   switch (action.type) {
     case "OPENING":
-      return { ...state, newMessages: action.payload };
+      return { ...state, trantiones: action.payload };
     default:
        return state;
   }
