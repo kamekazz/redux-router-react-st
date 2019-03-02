@@ -9,10 +9,9 @@ import { createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 
-import './sass/main.scss';
 
-import  Home  from './components/pages/Home';
-import  LandingPage  from './components/pages/LandingPage';
+
+
 
 import { Router, Route, Switch } from 'react-router-dom';
 import history from './store/history';
@@ -27,8 +26,8 @@ ReactDOM.render(
     <Router  history={history}>
         <App>
         <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/landing" component={LandingPage} />
+            {/* <Route path="/" exact component={Home} />
+            <Route path="/landing" component={LandingPage} /> */}
         </Switch>
         </App>
     </Router>
